@@ -25,9 +25,9 @@ public class PizzaOrder{
     reportOrder();
   }
 
-  public void bakeJoshPizza(){
-    System.out.format("Baking a Josh Pizza... \n");
-    pb = new Pizza.Builder("Josh Crust");  
+  public void bakeOlasPizza(){
+    System.out.format("Baking Ola's Pizza... \n");
+    pb = new Pizza.Builder("Ola's Crust");  
     p = pb.pizzas(1).build();
     reportOrder();
   }
