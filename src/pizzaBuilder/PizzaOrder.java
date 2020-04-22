@@ -28,8 +28,11 @@ public class PizzaOrder{
 
   public void bakeChancePizza(){
   	System.out.format("Baking a Chance's Pizza... \n");
-  	pb = new Pizza.Builder("Chance Pizza");  
+  	pb = new Pizza.Builder("Chance Pizza");
 
+    p = pb.pizzas(1).build();
+    reportOrder();
+}
   public void bakeJoshPizza(){
     System.out.format("Baking a Josh Pizza... \n");
     pb = new Pizza.Builder("Josh Crust");  

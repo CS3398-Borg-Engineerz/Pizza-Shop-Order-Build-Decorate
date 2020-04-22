@@ -28,10 +28,10 @@ public class PizzaOrderer{
 
     // Order a Chance Pizza
     control.setCommand(chancePizza);
+    control.submitOrder();
 
     // Order a Josh pizza
     control.setCommand(joshPizza);
-
     control.submitOrder();
   }
 }
