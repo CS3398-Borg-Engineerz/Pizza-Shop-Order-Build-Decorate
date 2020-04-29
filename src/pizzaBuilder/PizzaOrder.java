@@ -25,10 +25,29 @@ public class PizzaOrder{
     reportOrder();
   }
 
+<<<<<<< HEAD
   public void bakeOlasPizza(){
     System.out.format("Baking Ola's Pizza... \n");
     pb = new Pizza.Builder("Ola's Crust");  
+=======
+
+  public void bakeChancePizza(){
+  	System.out.format("Baking a Chance's Pizza... \n");
+  	pb = new Pizza.Builder("Chance Pizza");  
+
+  public void bakeJoshPizza(){
+    System.out.format("Baking a Josh Pizza... \n");
+    pb = new Pizza.Builder("Josh Crust");  
+
+>>>>>>> master
     p = pb.pizzas(1).build();
+    reportOrder();
+  }
+
+  public void bakeBaileyPizza(){
+    System.println("Baking Bailey's pizza...");
+    pizza = new Pizza.Builder("Deep Dish"); 
+    p = pizza.pizzas(1).build();
     reportOrder();
   }
 
