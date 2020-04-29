@@ -25,24 +25,22 @@ public class PizzaOrder{
     reportOrder();
   }
 
-<<<<<<< HEAD
   public void bakeOlasPizza(){
     System.out.format("Baking Ola's Pizza... \n");
-    pb = new Pizza.Builder("Ola's Crust");  
-=======
+    pb = new Pizza.Builder("Ola's Crust");
+    p = pb.pizzas(1).build();
+    reportOrder();
+  }
 
   public void bakeChancePizza(){
   	System.out.format("Baking a Chance's Pizza... \n");
   	pb = new Pizza.Builder("Chance Pizza");
-
     p = pb.pizzas(1).build();
     reportOrder();
 }
   public void bakeJoshPizza(){
     System.out.format("Baking a Josh Pizza... \n");
     pb = new Pizza.Builder("Josh Crust");  
-
->>>>>>> master
     p = pb.pizzas(1).build();
     reportOrder();
   }

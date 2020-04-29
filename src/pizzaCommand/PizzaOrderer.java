@@ -12,9 +12,8 @@ public class PizzaOrderer{
     PizzaOrder order = new PizzaOrder();
     PizzaCommand deepDish = new DeepDishCommand(order);
     PizzaCommand thinCrust = new ThinCrustCommand(order);
-<<<<<<< HEAD
+
     PizzaCommand olasPizza = new OlasPizzaCommand(order);
-=======
 
     PizzaCommand chancePizza = new ChancePizzaCommand(order);
 
@@ -22,7 +21,6 @@ public class PizzaOrderer{
 
     PizzaCommand baileyPizza = new BaileyPizzaCommand(order); 
 
->>>>>>> master
     // Order a deep Dish pizza
     control.setCommand(deepDish);
     control.submitOrder();
@@ -31,11 +29,10 @@ public class PizzaOrderer{
     control.setCommand(thinCrust);
     control.submitOrder();
 
-<<<<<<< HEAD
     // Order an Ola pizza
     control.setCommand(olasPizza);
-=======
-
+    control.submitOrder();
+    
     // Order a Chance Pizza
     control.setCommand(chancePizza);
     control.submitOrder();
@@ -46,11 +43,6 @@ public class PizzaOrderer{
 
     //Order a Bailey Pizza
     control.setCommand(baileyPizza); 
-<<<<<<< HEAD
-
->>>>>>> master
-=======
->>>>>>> master
     control.submitOrder();
   }
 }
