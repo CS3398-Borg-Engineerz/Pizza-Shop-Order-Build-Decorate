@@ -47,7 +47,7 @@ public class PizzaOrder{
 
   public void bakeBaileyPizza(){
     System.out.format("Baking Bailey's pizza...\n");
-    pb = new Pizza.Builder("Deep Dish"); 
+    pb = new Pizza.Builder("Bailey Crust"); 
     p = pb.pizzas(1).build();
     reportOrder();
   }
